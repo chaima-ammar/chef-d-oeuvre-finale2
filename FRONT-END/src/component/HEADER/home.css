@@ -1,0 +1,41 @@
+.name{
+
+text-align: center;
+
+
+}
+
+.avatar{
+    width:200px
+}
+
+title{
+    text-align: center;
+}
+
+
+.button-profile{
+
+
+background-color: black;
+color: #b48c2d;
+padding: 5px;
+}
+
+.cardprofil {
+  
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.carte{
+
+
+
+    margin-left: 400px;
+}
+
+.background{
+    background-color:black 
+
+}

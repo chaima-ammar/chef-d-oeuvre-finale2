@@ -1,0 +1,89 @@
+
+
+#apppage .view {
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+#apppage h6 {
+  line-height: 1.7;
+}
+
+@media only screen and (max-width: 400px) {
+  #apppage .animated img {
+    max-height: 50vh;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #apppage .animated img {
+    max-height: 35vh;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  #apppage .animated img {
+    max-height: 50vh;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+}
+@media (max-width: 1000px) and (orientation: landscape) {
+  #apppage .view {
+    min-height: 150vh;
+  }
+}
+
+
+.titre-nav{
+  font-family: "Playball", cursive;
+  text-align: center;
+  
+}
+
+
+
+.item {
+  color: #b48c2d;
+  
+  font-family:condensed,Arial, sans-serif
+}
+
+.items{
+
+
+  
+  font-family: "Playball", cursive;
+  font-size: large;
+  font-weight: bold;
+  color: #b48c2d;
+
+}
+
+.items:hover{
+  color:#b48c2d;
+}
+
+.titrenav{
+  color :white;
+  margin-top: 50px;
+  font-family: "Playball", cursive;
+}
+
+.textnav{
+  color :white;
+  text-align:justify;
+  width: 300px;
+  
+
+
+}
